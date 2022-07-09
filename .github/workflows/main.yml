@@ -72,7 +72,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ фразой-паролем 23
+        passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ фразой-паролем 2332454657645
         script: |
           # Выполняет pull образа с DockerHub
           sudo docker pull iriderpro/infra_actions
